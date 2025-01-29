@@ -1,5 +1,5 @@
 import React from 'react';
-import Facebook from "../../public/Facebook.png";
+import Facebook from "../../public/facebook.png";
 import LinkedIn from "../../public/linkedin.png";
 import Twitter from "../../public/twitter.png";
 import Instagram from "../../public/instagram.png";
