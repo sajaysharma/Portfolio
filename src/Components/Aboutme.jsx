@@ -1,5 +1,6 @@
 
 import React from 'react';
+import photo from "../../public/A3---12pp.jpg";
 
 
 function Aboutme() {
@@ -10,9 +11,9 @@ function Aboutme() {
         <div className="bg-white rounded-2xl shadow-lg flex flex-col md:flex-row p-6 md:p-8 w-full max-w-screen-2xl">
           {/* Image Section */}
           <div className="flex justify-center items-center md:w-1/3">
-            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full bg-yellow-400 overflow-hidden">
+            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full  overflow-hidden">
               <img
-                src="../../public/A3---12pp.jpg" // Replace with your actual image URL
+                src={photo} // Replace with your actual image URL
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
