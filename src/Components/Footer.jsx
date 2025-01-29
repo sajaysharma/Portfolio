@@ -44,7 +44,7 @@ function Footer() {
                             ))
                         }
                     </div>
-                    <div className='mt-8 border-t border-gray-700 pt-8 flex flex-col items-center'>
+                    <div className='mt-5 border-t border-gray-700 pt-8 flex flex-col items-center'>
                         <p>
                             &copy; 2025 || Developed By Ajay Sharma
                         </p>

@@ -6,7 +6,7 @@ function Aboutme() {
   return (
     <>
 
-      <div className="max-w-screen-2xl  container mx-auto px-4 md:px-20 flex items-center min-h-screen bg-gray-100">
+      <div name ="ABOUT" className="max-w-screen-2xl  container mx-auto px-4 md:px-20 flex items-center min-h-screen bg-gray-100">
         <div className="bg-white rounded-2xl shadow-lg flex flex-col md:flex-row p-6 md:p-8 w-full max-w-screen-2xl">
           {/* Image Section */}
           <div className="flex justify-center items-center md:w-1/3">

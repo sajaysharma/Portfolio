@@ -4,11 +4,11 @@ function Education() {
     return (
         <>
 
-            <div className="min-h-screen">
+            <div name ="EDUCATION" className="max-w-screen mt-10 mb-10">
 
                 {/* Education Section */}
                 <div id="education" className="py-12 px-6 ">
-                    <h2 className="text-3xl md:text-9xl font-bold text-center text-blue-600 mb-8">
+                    <h2 className="text-3xl md:text-9xl font-bold text-center text-blue-600 md:mb-8">
                         My Education
                     </h2>
 

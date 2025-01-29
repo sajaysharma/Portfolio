@@ -54,7 +54,7 @@ function Skills() {
     ]
     return (
         <>
-            <div className="max-w-screen-2xl min-h-screen cotainer mx-auto px-4 md:px-20 mt-10 ">
+            <div name="SKILLS" className="max-w-screen-2xl min-h-screen cotainer mx-auto px-4 md:px-20 mt-10 ">
                 <div>
                     <h1 className='text-3xl font-bold mb-5'>Skills</h1>
                 </div>

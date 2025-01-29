@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import pic from '../../public/A3---12pp.jpg';
 import { AiOutlineMenu } from "react-icons/ai";
-import { IoClose } from "react-icons/io5";
+import { IoClose, IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 
 
@@ -50,14 +51,25 @@ const Navbar = () => {
                         <ul className='hidden md:flex space-x-8 '>
                             {
                                 navItem.map(({ id, text }) => (
-                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>{text}</li>
+                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>
+
+                                        <Link to={text}
+                                            smooth={true}
+                                            duration={500}
+                                            offset={-70}
+                                            activeClass='active'
+                                        >
+                                            {text}
+                                        </Link>
+
+                                    </li>
                                 ))
                             }
                         </ul>
                         <div
                             onClick={() => setMenu(!menu)}
                             className='md:hidden'>
-                            {menu ? <AiOutlineMenu size={24} /> : <IoClose size={24} />}
+                            {menu ? <IoCloseSharp size={24} /> : <AiOutlineMenu size={24} />}
                         </div>
                     </div>
                 </div>
@@ -66,11 +78,24 @@ const Navbar = () => {
                 {
                     menu && (
 
-                        <div>
+                        <div className='bg-white'>
                             <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl'>
                                 {
                                     navItem.map(({ id, text }) => (
-                                        <li className='hover:scale-105 duration-200 cursor-pointer font-semibold' key={id}>{text}</li>
+                                        <li className='hover:scale-105 duration-200 cursor-pointer font-semibold' key={id}>
+
+                                            <Link
+                                                onClick={() => setMenu(!menu)}
+                                                to={text}
+                                                smooth={true}
+                                                duration={500}
+                                                offset={-70}
+                                                activeClass='active'
+                                            >
+                                                {text}
+                                            </Link>
+
+                                        </li>
                                     ))
                                 }
                             </ul>

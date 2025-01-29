@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ReactTyped } from "react-typed";
-import pic from '../../public/Banner.jpg';
+import pic from '../../public/Profile.png';
 
 
 
@@ -9,7 +9,7 @@ function Banner() {
     return (
         <>
 
-            <div className="max-w-screen-2xl  container mx-auto px-4 md:px-20 my-20">
+            <div name = "HOME" className="max-w-screen-2xl  container mx-auto px-4 md:px-20 my-20">
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/2  mt-12 md:mt-38 space-y-2 py-10 order-2">
                         <span className='font-semibold text-xl'>Hii, There! I'm</span>
