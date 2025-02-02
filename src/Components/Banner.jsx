@@ -24,9 +24,10 @@ function Banner() {
                             />
                         </div>
                         <p className='text-sm md:text-md text-justify'>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos,
-                            quasi ipsa nam id quisquam minima maiores reprehenderit dolor
-                            consequatur molestias libero aliquid
+                        I am a passionate web developer with a keen interest in modern technologies and problem-solving. 
+                        I enjoy building responsive, user-friendly applications and constantly exploring new tools to enhance my skills. 
+                        Whether it's designing intuitive user interfaces or working on full-stack development, I always strive for 
+                        clean and efficient code.I believe in continuous learning and love taking on challenges that push my boundaries.
                         </p>
                         <br />
                         {/* Button */}

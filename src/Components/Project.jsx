@@ -77,7 +77,7 @@ function Project() {
             <div name="PROJECT" className="max-w-screen  container mx-auto mb-12 px-4 md:px-20">
                 <div>
                     <h1 className='text-2xl font-semibold mt-8'>Project</h1>
-                    <p className='text-gray-700 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas laudantium obcaecati ipsa perferendis vero?</p>
+                    <p className='text-gray-700 text-sm'>I have worked on various web development projects, focusing on responsive design, user experience, and efficient functionality. Using modern technologies like React, MERN Stack, and Tailwind CSS, I build scalable solutions that solve real-world problems. My goal is to keep learning and refining my skills by working on innovative applications.</p>
                 </div>
                 <div>
                     <Slider {...settings}>

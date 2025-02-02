@@ -4,8 +4,8 @@ function Cards({ item }) {
     // console.log(item)
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-xl border-2 border-gray-700 p-8 md:ml-12 mt-22 rounded-3xl">
-                <figure className="px-10 pt-10">
+            <div className="card bg-base-100 w-85 shadow-xl border-2 border-gray-700 p-8 md:ml-8 mt-17 rounded-3xl">
+                <figure className="px-8 pt-8">
                     <img
                         src={item.image}
                         alt="Shoes"

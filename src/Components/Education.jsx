@@ -19,7 +19,7 @@ function Education() {
                             <p className="text-lg md:text-xl font-semibold">
                                 MCA
                             </p>
-                            <p className="text-sm md:text-base font-medium text-gray-700">
+                            <p className="text-sm md:text-base justify-between items-center ml-4 font-medium text-gray-700">
                                 GALGOTIAS UNIVERSITY GREATER NOIDA
                             </p>
                             <span className="px-4 py-1 bg-gray-200 rounded-full text-sm font-semibold">
@@ -34,7 +34,7 @@ function Education() {
                             <p className="text-lg md:text-xl font-bold">
                                 BCA
                                 </p>
-                            <p className="text-sm md:text-base font-medium text-gray-700">
+                            <p className="text-sm md:text-base font-medium ml-4 text-gray-700">
                                 RBMI GROUP OF INSTITUTION BAREILLY
                             </p>
                             <span className="px-4 py-1 bg-gray-200 rounded-full text-sm font-semibold">
@@ -47,7 +47,7 @@ function Education() {
                         <div>
                         <div className="flex justify-between items-center">
                             <p className="text-lg md:text-xl font-bold">Intermediate</p>
-                            <p className="text-sm md:text-base font-medium text-gray-700">
+                            <p className="text-sm md:text-base font-medium ml-4 text-gray-700">
                                 SRM INTER COLLEGE MILAK
                             </p>
                             <span className="px-4 py-1 bg-gray-200 rounded-full text-sm font-semibold">
@@ -59,7 +59,7 @@ function Education() {
                         {/* High School */}
                         <div className="flex justify-between items-center">
                             <p className="text-lg md:text-xl font-bold">High School</p>
-                            <p className="text-sm md:text-base font-medium text-gray-700">
+                            <p className="text-sm md:text-base font-medium ml-4 text-gray-700">
                                 PT RAM PD VAIDYA SMARAK IC MILAK
                             </p>
                             <span className="px-4 py-1 bg-gray-200 rounded-full text-sm font-semibold">
